@@ -1,0 +1,11 @@
+First step should be to select a Good BUg Bounty Program
+
+Next 
+Should do a Recon not deep so you lost in as much as you are able to do.
+
+Start with Subdomain enumeration with tools like ;
+Subfinder: subfinder -d example.com
+
+Then do a directory enumeration with tools like :
+dirsearch : dirsearch -u www.example.com
+ffuf : ffuf -u https://example.com/FUZZ -w /path of wordlist (/usr/share/wordlist/dirb/common.txt)
