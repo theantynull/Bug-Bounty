@@ -9,3 +9,4 @@ Subfinder: subfinder -d example.com
 Then do a directory enumeration with tools like :
 dirsearch : dirsearch -u www.example.com
 ffuf : ffuf -u https://example.com/FUZZ -w /path of wordlist (/usr/share/wordlist/dirb/common.txt)
+gobuster 
